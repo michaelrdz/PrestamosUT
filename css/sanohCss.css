@@ -1,0 +1,117 @@
+/* SANOH CSS PROPERTIES*/
+
+/*Propiedades de notificación*/
+.notifier {
+
+    z-index:2147483647;
+    border-radius:2px;
+    width: 300px;
+    background: black;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.8);
+    color: white;
+    display:none;
+    position: fixed;
+    bottom: 10px;
+    left: 25px;
+    padding: 18px;
+    word-break: break-word;
+}
+.notifierHeader {
+    text-align: right;
+}
+.notifierClosingIcon {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#body-notifier
+{
+    font-size:17px;
+}
+
+/*  Style properties for issue report  */
+
+
+#sn-screenshot-container
+{
+ z-index: 9999;   padding:10px;background:rgba(0,0,0,0.5);position:fixed;width:100%;height:100%;top:0;bottom:0;left:0;right:0;    
+}
+
+.sn-header-form-issue
+{
+    margin-bottom: 7px;
+    border-bottom:0.5px solid rgba(0,0,0,0.2);
+    padding:5px;
+}
+
+.sn-header-form-issue
+{
+    margin-bottom: 7px;
+    border-bottom:0.5px solid rgba(0,0,0,0.2);
+    padding:5px;
+}
+
+.sn-footer-form-issue
+{
+    margin-top: 7px;
+    border-top:0.5px solid rgba(0,0,0,0.2);
+    padding:5px;
+}
+
+#sn-body-form
+{
+    border-radius: 0 !important;
+    width:500px;
+    padding:20px;
+    background:white;
+    margin: 0 auto;
+}
+
+#sn-body-form >  .sn-header-form-issue
+{
+      margin: -15px;
+      margin-bottom: 0;
+      padding: 15px;
+
+}
+
+#sn-body-form >  .sn-footer-form-issue
+{
+      margin: -15px;
+      margin-top: 0;
+      padding: 15px;
+
+}
+
+/*Controls*/
+#issue-description, #issue-url
+{
+    min-width: 100%;
+}
+
+/*icons*/
+.icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+.exchange{
+	
+}
+.exchange ul {
+	
+}
+
+.exchange ul li a{
+	
+}
+
+.exchange ul li a:hover{
+	color: #3B5998;
+	background: #fff;
+}
