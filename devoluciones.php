@@ -7,7 +7,7 @@ include('includes/validation.php');
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>GPDS</title>
+		<title>GPDS Dev</title>
 		<meta name="description" content="UTA - Sistema de prestamo">
 		<meta name="author" content="UTA">
 
